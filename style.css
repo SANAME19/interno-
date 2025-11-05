@@ -1,0 +1,47 @@
+/*RESET/permet d'effacer le style par défaut imposé par le naviagateur*/
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn- {
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.btn-secondary {
+    font: size 14px;
+
+}
+
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+
+ width: 100%;
+}
+
+/* Classes fonctionnelles flexbox*/
+/*rendre flexible un parent=aligner ses enfatnts*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+
+}

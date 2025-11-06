@@ -47,6 +47,8 @@ a {
 .flex {
     display: flex;
     flex-wrap: wrap;
+    
+    
 }
 
 .space-between {
@@ -62,7 +64,8 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-bottom-left-radius: 250px
+    border-bottom-left-radius: 250px 
+    
 }
 
 
@@ -80,8 +83,18 @@ a {
 }
 
 .margin-top{
-    margin-top: 100;
+    margin-top: 80px;
+
 }
 .bg-beige{
     background-color: beige;
+}
+.list-style{list-style:none ;
+
+}
+.margin-bottom{
+    margin: bottom 80px; ;
+}
+.border{
+    border-radius: 5px;
 }
